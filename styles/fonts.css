@@ -1,17 +1,56 @@
 @font-face {
-    font-family: roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('../fonts/roboto-bold.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+    /* fonts */
+--heading-font-family: ui-serifed, "Times New Roman", Times, serif;
+--body-font-family: ui-sans, "Helvetica Neue", Arial, sans-serif;
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+/* colors */
+--text-color: #181a1c;
+--link-color: #0e7194;
+--link-hover-color: #0e7194;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
+
+/* sizes */
+--heading-font-size-xxl: 34px;
+--heading-font-size-xl: 14.5px;
+--heading-font-size-l: 14.5px;
+--heading-font-size-m: 14.5px;
+--heading-font-size-s: 14.5px;
+--heading-font-size-xs: 14.5px;
+--body-font-size-xxl: 29px;
+--body-font-size-xl: 18px;
+--body-font-size-l: 16px;
+--body-font-size-m: 14.5px;
+--body-font-size-s: 13.5px;
+--body-font-size-xs: 13px;
+
   
   @font-face {
-    font-family: roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('../fonts/roboto-regular.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+/* fonts */
+--heading-font-family: ui-serifed, "Times New Roman", Times, serif;
+--body-font-family: ui-sans, "Helvetica Neue", Arial, sans-serif;
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+/* colors */
+--text-color: #181a1c;
+--link-color: #0e7194;
+--link-hover-color: #0e7194;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
+
+/* sizes */
+--heading-font-size-xxl: 34px;
+--heading-font-size-xl: 14.5px;
+--heading-font-size-l: 14.5px;
+--heading-font-size-m: 14.5px;
+--heading-font-size-s: 14.5px;
+--heading-font-size-xs: 14.5px;
+--body-font-size-xxl: 29px;
+--body-font-size-xl: 18px;
+--body-font-size-l: 16px;
+--body-font-size-m: 14.5px;
+--body-font-size-s: 13.5px;
+--body-font-size-xs: 13px;
